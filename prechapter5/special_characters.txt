@@ -1,0 +1,9 @@
+\b Backspace
+\f Form Feed
+\n Newline
+\r Return
+\t Tab
+\' Apostrophe
+\" Double quote
+\\ backslash
+\nnn Character number (octal)
