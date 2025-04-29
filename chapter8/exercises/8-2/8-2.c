@@ -29,6 +29,7 @@ int i;
  */
 int main(int argc, char *argv[]) {
   float resistors[argc];
+
   for (i = 0; i < argc; i++) {
     resistors[i] = atoi(argv[i]);
   }
@@ -38,15 +39,10 @@ int main(int argc, char *argv[]) {
     fraction_sum = (1 / resistors[i]);
     siemens += fraction_sum;
   }
-
-
   printf("%f\n", siemens);
 
   resistance = 1/siemens;
-
   printf("resistance: %f\n", resistance);
-
-
 
   return 0;
 }
